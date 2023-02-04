@@ -1,0 +1,180 @@
+/*Global Styles*/
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    list-style-type: none;
+    text-decoration: none;
+    font-family: 'Poppins', sans-serif;
+   transition: .5s all;
+}
+
+.container{
+    max-width: 1640px;
+    margin: 0 auto;
+}
+
+:root{
+    --bg-color:#000000;
+    --main-color:#FFFFFF;
+    --text-color:#707070;
+    --hover-color:#306EF7;
+}
+
+html{
+    font-size: 62.5%;
+    --header1: calc(2rem + 1vw);
+    --header2: calc(3.5rem + 1vw);
+    --header3: calc(3rem + 1vw);
+    --header4: calc(2.4rem + 1vw);
+    --text: calc(1.5rem + 1vw);
+    --big-text: calc(6rem + 1vw);
+}
+
+h1{
+    font-size: var(--header1);
+    color: var(--main-color);
+}
+
+li,button,label,input,a,p{
+    font-size: var(--text);
+}
+
+h2{
+    font-size: var(--header2);
+}
+h3{
+    font-size: var(--header3);
+}
+
+h4,h5{
+    font-size: var(--header4);
+}
+
+a{
+    text-decoration: none;
+    color: var(--text-color);
+}
+
+a:hover{
+    color: var(--hover-color);
+}
+
+a.active{
+    color: var(--hover-color);
+}
+
+ul{
+    list-style: none;
+}
+
+
+
+/*--------------------------------------------Navbar Section-------------------------------------------------*/
+body{
+    min-height: 100vh;
+    background: var(--bg-color);
+    color: var(--text-color);
+}
+
+header{
+    position: fixed;
+    width: 100%;
+    padding-top: 2rem;
+    padding-bottom: 2rem;
+    left: 0;
+    z-index: 1000;
+    background:var(--bg-color) ;
+
+}
+
+.header-nav{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.header-title{
+    display: flex;
+    align-items: center;
+    column-gap: 1rem;
+}
+
+.header-list{
+    display: flex;
+    column-gap: 2rem;
+}
+
+.header-title{
+    font-weight: 800;
+}
+
+.header-link{
+    font-weight: 500;
+}
+
+.header-btns{
+    display: flex;
+    column-gap: 2rem;
+}
+
+.header-button{
+    font-weight: 500;
+    color: var(--text-color);
+    border: 1px solid var(--bg-color);
+    padding: 12px 22px;
+    cursor: pointer;
+    background: transparent;
+    border-radius: 10px;
+}
+
+.header-button:hover{
+    color: var(--main-color);
+    background: var(--hover-color);
+    border: 1 px solid var(--hover-color);
+}
+/*--------------------------------------------Pricing Section-------------------------------------------------*/
+
+.pricing{
+    padding-top: 230px;
+    display: flex;
+    align-items: center;
+    text-align: center;
+}
+.pricing-title{
+    font-weight: 600;
+    color: var(--main-color);
+    line-height: 112px;
+    padding-bottom: 123px;
+    margin: 30px auto;
+}
+
+
+.flex{
+    display: flex;
+    justify-content: space-between ;
+}
+
+.price__box{
+    align-items: flex-start;
+    background: #90bfe6;
+    border-radius: 30px;
+    border: 1px solid  #707070;
+    margin: 4rem;
+    padding: 2.5rem;
+    font-size: 1rem;
+    width:496px ;
+    height: 989px;
+}
+
+.price__box-head{
+    align-items: flex-start;
+}
+
+.card-tittle{
+    Font size: 50px
+    Line height: 75px
+    font: 600;
+    color: var(--main-color);
+    align-items: flex-start;
+}

@@ -361,11 +361,13 @@ footer{
     margin: auto;
 }
 
-footer-title{
+.footer-title{
     display: flex;
-    align-items: center;
-    column-gap: 2rem; /*Is not working*/
-    flex: 1 1 40rem;
+    justify-content: space-between;
+    align-items: flex-end;
+    flex-wrap: nowrap;
+    column-gap: 1rem; /*Is not working*/
+    
     
 }
 

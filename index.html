@@ -10,7 +10,7 @@
     <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@400;500;600;700;800&display=swap" rel="stylesheet">
     <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/remixicon@2.5.0/fonts/remixicon.css">
     <link rel="stylesheet" href="hhtps://unpkg.com/boxicons@latest/css/boxicons.min.css">
-    <title>Marico</title>
+    <title>Marico+</title>
 </head>
 <body>
     <header class="header">
@@ -23,7 +23,7 @@
                     </svg>
                     Marico</h1>
                 <ul class="header-list" >
-                    <li class="header-link"><a href="#"><span>&#10003;</span>Use Cases</a></li>
+                    <li class="header-link"><a href="#">Use Cases</a></li>
                     <li><a href="#">About</a></li>
                     <li><a href="#" class="active">Pricing</a></li>
                     <li><a href="#">Blog</a></li>
@@ -36,85 +36,95 @@
         </div>     
     </header>
     <!-------------------Main Section---------------------------->
-   <main class="main">
-    <section class="pricing">
-        <div class="container">
-            <h2 class="pricing-title">Choose the plan that's right for you.</h2>
-            <div class="flex">
-                <div class="price__box">
-                    <div class="price__box-head">
-                    <h3 class="card-tittle">Starter</h3>
-                    <p>Perfect for tying out Wavium</p>
-                </div>
-                <div class="price__box-plan">
-                    <h3 class="price__box-plan-title">Free</h3>
-                </div>
-                <div class="price__box-subscribers">
-                    <h3>Collect Unlimited subscribers</h3><span>500 monthly emails</span>
-                    <p>Upgrade to send more emails</p>
-                </div>
-                <div class="price__box-list">
-                    <h3>Key features</h3>
-                    <ul>
-                        <li>Automatic updating home page</li>
-                        <li>Unlimited sources + posts</li>
-                    </ul>
-                </div>
-                <div class="price__box-btn">
-                    <button>Start For Free</button>
-                </div>
-                </div>
-                <div class="price__box">
-                    <div class="price__box-head">
-                    <h3 class="card-tittle">Basic</h3>
-                    <p>Build your online home</p>
-                </div>
-                <div class="price__box-pplan">
-                    <h3 class="price__box-plan-title">$14</h3>
-                    <p>Per month <br>or $19/mo, billed monthly</p>
-                </div>
-                <div class="price__box-subscribers">
-                    <h3>Collect Unlimited subscribers</h3><span>2,000 free monthl emails</span>
-                    <p>Purchase more for $0.002 per email</p>
-                </div>
-                <div class="price__box-list">
-                    <h3>Everything in starter, plus</h3>
-                    <ul>
-                        <li>Remove Wavium branding</li>
-                        <li>Embed Wavium on your own domain</li>
-                    </ul>
-                </div>
-                <div class="price__box-btn">
-                    <button>Start Free 14-day Trial</button>
-                </div>
-                </div>
-                <div class="price__box">
-                    <div class="price__box-head">
-                    <h3 class="card-tittle">Complete</h3>
-                    <p>Enhanced engagement</p>
-                </div>
-                <div class="price__box-plan">
-                    <h3 class="price__box-plan-title">$29</h3>
-                    <p>Per month <br>or $34/mo, billed monthly</p>
-                </div>
-                <div class="price__box-subscribers">
-                    <h3>Collect Unlimited subscribers</h3><span>10,000 free monthly emails</span>
-                    <p>Purchase more for $0.002 per email</p>
-                </div>
-                <div class="price__box-list">
-                    <h3>Everything in basic, plus </h3>
-                    <ul>
-                        <li>Collect text massage subscribers</li>
-                        <li>Share posts over text massage</li>
-                    </ul>
-                </div>
-                <div class="price__box-btn">
-                    <button>Start Free 14-day Trial</button>
-                </div>
-                </div>
-            </div>
+      <main class="main">
+        <section class="subscribers">
+         <div class="container">
+            <h1 class="title">Choose the plan that's right for you.</h1>
+            <div class="cards">
+            <!--Starter Plan-->
+        <div class="card" id="card-1">
+            <h1 class="card-title">Starter <br> <span class="card-title-note">Perfect for tying out Wavium</span></h1>
+            <h2 class="card-price" id="starter-price">Free</h2>
+            <h3 class="card-subscribers">Collect Unlimited subscribers</h3>
+            <h4 class="card-email">500 monthly emails</h4>
+            <p>Upgrade to send more emails</p>
+            <ul class="card-plan">
+                <h3 class="card-plan-title">Key features</h3>
+                <li>Automatic updating home page</li>
+                <li>Unlimited sources + posts</li>
+            </ul>
+            <button type="button" class="card-btn">Start For Free</button>
         </div>
-    </section>
-   </main>
+        <!--Basic Plan-->
+        <div class="card" id="card-2">
+            <h1 class="card-title">Basic <br> <span class="card-title-note">Build your online home</span></h1>
+            <h2 class="card-price" id="starter-price">$14<span class="card-price-note"> Per month <br><u>or $19/mo, billed monthly</u></span></h2>
+            
+            <h3 class="card-subscribers">Collect Unlimited subscribers</h3>
+            <h4 class="card-email">2,000 free monthl emails</h4>
+            <p>Purchase more for $0.002 per email</p>
+            <ul class="card-plan">
+                <h3 class="card-plan-title">Everything in starter, plus</h3>
+                <li>Remove Wavium branding</li>
+                <li>Embed Wavium on your own domain</li>
+            </ul>
+            <button type="button" class="card-btn">Start Free 14-day Trial</button>
+        </div>
+        <!--Complete Plan-->
+        <div class="card" id="card-3">
+            <h1 class="card-title">Complete <br> <span class="card-title-note">Enhanced engagement</span></h1>
+            <h2 class="card-price" id="starter-price">$29<span class="card-price-note" > Per month <br>or $34/mo, billed monthly</span></h2>
+            
+            <h3 class="card-subscribers">Collect Unlimited subscribers</h3>
+            <h4 class="card-email">10,000 free monthly emails</h4>
+            <p>Purchase more for $0.002 per email</p>
+            <ul class="card-plan">
+                <h3 class="card-plan-title">Everything in starter, plus</h3>
+                <li>Collect text massage subscribers</li>
+                <li>Share posts over text massage</li>
+            </ul>
+            <button type="button" class="card-btn">Start Free 14-day Trial</button>
+        </div>
+        </div>
+    </div>
+</section>
+</main>
+<!-------------------Subscribe Section---------------------------->
+<section class="getstarted">
+    <div class="container">
+        <img src="/img/Logo.svg" alt="logo">
+        <h1 class="getstarted-title">Get Started Now</h1>
+        <h2 class="getstarted-note">Setup is easy and takes under 5 minutes.</h2>
+        <button type="button" class="getstarted-btn">Get Started Now</button>
+        <div class="subscribers-box">
+        <p class="subscribers-creators">
+            <svg class="svg" width="37" height="37" viewBox="0 0 37 37" fill="none" xmlns="http://www.w3.org/2000/svg">
+                <path fill-rule="evenodd" clip-rule="evenodd" d="M18.8292 7.76514C24.9396 7.76514 29.8931 12.7188 29.8931 18.8291C29.8931 24.9395 24.9396 29.8931 18.8292 29.8931C12.7186 29.8931 7.76514 24.9395 7.76514 18.8291C7.76514 12.7188 12.7186 7.76514 18.8292 7.76514V7.76514Z" fill="#0FC65C"/>
+                <path opacity="0.24" fill-rule="evenodd" clip-rule="evenodd" d="M18.5 0C28.7173 0 37 8.28271 37 18.5C37 28.7173 28.7173 37 18.5 37C8.28271 37 0 28.7173 0 18.5C0 8.28271 8.28271 0 18.5 0V0Z" fill="#0FC65C"/>
+                </svg>
+            <span class="subscribers-creators-bold">1000+</span>creators have already started</p>
+        </div>
+    </div>
+</section>
+<!-------------------Footer Section---------------------------->
+<footer>
+    <div class="footer-wrapper">
+        <div class="logo-container">
+            <h1 class="footer-title"><svg width="48" height="54" viewBox="0 0 48 54" fill="none" xmlns="http://www.w3.org/2000/svg">
+                <path fill-rule="evenodd" clip-rule="evenodd" d="M0.279297 40.335V53.373H11.5713V51.5281L0.279297 40.335Z" fill="#326CF9"/>
+                <path fill-rule="evenodd" clip-rule="evenodd" d="M36.1633 53.375H47.4553V40.3372L36.1663 51.531L36.1633 53.375Z" fill="#326CF9"/>
+                <path fill-rule="evenodd" clip-rule="evenodd" d="M47.4553 1.10986L23.9173 28.863L0.279297 0.991943V24.9749L23.9173 52.8479L47.4513 25.0979L47.4553 1.10986Z" fill="#326CF9"/>
+                </svg>
+                Marico</h1>
+                <a class="email" href="mailto:info@marico.co">info@marico.co</a>
+        </div>
+            <ul >
+                <li><a href="#">About</a></li>
+                <li><a class="active" href="#">Pricing</a></li>
+                <li><a href="#">Blog</a></li>
+                <li><a href="#">Sing in</a></li>
+            </ul>
+    </div>
+</footer>
 </body>
 </html>

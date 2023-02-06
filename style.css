@@ -273,7 +273,6 @@ header{
     border-radius: 15px;
     border: 1px solid var(--hover-color);
     cursor: pointer;
-
   }
 
    .card-btn:hover{
@@ -369,7 +368,7 @@ footer{
 footer-title{
     display: flex;
     align-items: center;
-    column-gap: 2rem;
+    column-gap: 2rem; /*Is not working*/
     flex: 1 1 40rem;
     
 }
